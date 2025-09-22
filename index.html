@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TruckHire Johannesburg - Truck & Bakkie Booking</title>
+    <link rel="stylesheet" href="main.css">
+    <style>
+
+
+ </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <nav class="navbar">
+                <div class="logo">
+                    <i class="fas fa-truck-moving"></i>
+                    <h1>Mov<span>ing</span> JHB</h1>
+                </div>
+                <div class="nav-links">
+                    <a href="#vehicles">Vehicles</a>
+                    <a href="#rubble">Rubble Removal</a>
+                    <a href="#booking">Book Now</a>
+                    <a href="#contact">Contact</a>
+                </div>
+                <button class="cta-button">Book Now</button>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <h2>Reliable Truck & Bakkie Hire in Johannesburg</h2>
+            <p>Book small, medium, or large bakkies and trucks for all your transportation needs. Specializing in rubble removal with trucks up to 5 tons.</p>
+            <button class="cta-button">Get Started</button>
+        </div>
+    </section>
+
+    <!-- Vehicle Selection -->
+    <section id="vehicles" class="container">
+        <h2 class="section-title">Choose Your Vehicle</h2>
+        <div class="vehicle-grid">
+            <!-- Small Bakkie -->
+            <div class="vehicle-card">
+                <div class="vehicle-image" style="background-image: url('https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80');"></div>
+                <div class="vehicle-info">
+                    <h3>Small Bakkie</h3>
+                    <p>Perfect for small moves and deliveries. Up to 500kg capacity.</p>
+                    <div class="vehicle-price">R8/km</div>
+                    <button class="select-button" data-vehicle="small-bakkie">Select</button>
+                </div>
+            </div>
+
+            <!-- Medium Bakkie -->
+            <div class="vehicle-card">
+                <div class="vehicle-image" style="background-image: url('https://images.unsplash.com/photo-1580273916550-e323be2ae537?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80');"></div>
+                <div class="vehicle-info">
+                    <h3>Medium Bakkie</h3>
+                    <p>Ideal for medium-sized loads. Up to 1 ton capacity.</p>
+                    <div class="vehicle-price">R8/km</div>
+                    <button class="select-button" data-vehicle="medium-bakkie">Select</button>
+                </div>
+            </div>
+
+            <!-- Large Bakkie -->
+            <div class="vehicle-card">
+                <div class="vehicle-image" style="background-image: url('https://images.unsplash.com/photo-1549317661-bd32c8ce0db2?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80');"></div>
+                <div class="vehicle-info">
+                    <h3>Large Bakkie</h3>
+                    <p>For larger items and bigger moves. Up to 1.5 ton capacity.</p>
+                    <div class="vehicle-price">R8/km</div>
+                    <button class="select-button" data-vehicle="large-bakkie">Select</button>
+                </div>
+            </div>
+
+            <!-- Small Truck -->
+            <div class="vehicle-card">
+                <div class="vehicle-image" style="background-image: url('https://images.unsplash.com/photo-1601362840461-3490bc6d8e74?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80');"></div>
+                <div class="vehicle-info">
+                    <h3>Small Truck</h3>
+                    <p>Light truck suitable for furniture and appliances.</p>
+                    <div class="vehicle-price">R8/km</div>
+                    <button class="select-button" data-vehicle="small-truck">Select</button>
+                </div>
+            </div>
+
+            <!-- Medium Truck -->
+            <div class="vehicle-card">
+                <div class="vehicle-image" style="background-image: url('https://images.unsplash.com/photo-1563720223481-83b15a63c9c4?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80');"></div>
+                <div class="vehicle-info">
+                    <h3>Medium Truck</h3>
+                    <p>Versatile truck for various transportation needs.</p>
+                    <div class="vehicle-price">R8/km</div>
+                    <button class="select-button" data-vehicle="medium-truck">Select</button>
+                </div>
+            </div>
+
+            <!-- Large Truck -->
+            <div class="vehicle-card">
+                <div class="vehicle-image" style="background-image: url('https://images.unsplash.com/photo-1503376780353-7e6692767b70?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80');"></div>
+                <div class="vehicle-info">
+                    <h3>Large Truck</h3>
+                    <p>Heavy-duty truck for commercial and industrial use.</p>
+                    <div class="vehicle-price">R8/km</div>
+                    <button class="select-button" data-vehicle="large-truck">Select</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Rubble Removal Section -->
+    <section id="rubble" class="rubble-section">
+        <div class="container">
+            <div class="rubble-content">
+                <div class="rubble-info">
+                    <h2>Rubble Removal Service</h2>
+                    <p>We specialize in rubble removal with our fleet of reliable trucks. Whether you're renovating, landscaping, or clearing construction debris, we have the right truck for the job.</p>
+                    <p>Our trucks range from 2-ton to 5-ton capacity to handle any size project.</p>
+                    <div class="truck-capacities">
+                        <div class="capacity">
+                            <span>2 Ton</span>
+                        </div>
+                        <div class="capacity">
+                            <span>3 Ton</span>
+                        </div>
+                        <div class="capacity">
+                            <span>4 Ton</span>
+                        </div>
+                        <div class="capacity">
+                            <span>5 Ton</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="rubble-image">
+                    <!-- This would typically be an image -->
+                    <div style="background-color: rgba(255,255,255,0.1); height: 300px; border-radius: 10px; display: flex; align-items: center; justify-content: center;">
+                        <i class="fas fa-truck-pickup" style="font-size: 100px; color: var(--primary);"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Booking Form -->
+    <section id="booking" class="container">
+        <h2 class="section-title">Book Your Transport</h2>
+        <div class="booking-section">
+            <form id="booking-form">
+                <div class="form-group">
+                    <label for="vehicle-type">Select Vehicle Type</label>
+                    <select id="vehicle-type" required>
+                        <option value="">-- Choose a vehicle --</option>
+                        <option value="small-bakkie">Small Bakkie (R8/km)</option>
+                        <option value="medium-bakkie">Medium Bakkie (R8/km)</option>
+                        <option value="large-bakkie">Large Bakkie (R8/km)</option>
+                        <option value="small-truck">Small Truck (R8/km)</option>
+                        <option value="medium-truck">Medium Truck (R8/km)</option>
+                        <option value="large-truck">Large Truck (R8/km)</option>
+                        <option value="2-ton-rubble">2 Ton Rubble Truck (R8/km)</option>
+                        <option value="3-ton-rubble">3 Ton Rubble Truck (R8/km)</option>
+                        <option value="4-ton-rubble">4 Ton Rubble Truck (R8/km)</option>
+                        <option value="5-ton-rubble">5 Ton Rubble Truck (R8/km)</option>
+                    </select>
+                </div>
+
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="pickup-location">Pickup Location</label>
+                        <input type="text" id="pickup-location" placeholder="Enter pickup address" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="destination">Destination</label>
+                        <input type="text" id="destination" placeholder="Enter destination address" required>
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="date">Date</label>
+                        <input type="date" id="date" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="time">Time</label>
+                        <input type="time" id="time" required>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="distance">Estimated Distance (km)</label>
+                    <input type="number" id="distance" placeholder="Enter distance in kilometers" min="1" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="notes">Additional Notes</label>
+                    <textarea id="notes" rows="4" placeholder="Any special requirements?"></textarea>
+                </div>
+
+                <button type="submit" class="cta-button" style="width: 100%;">Book Now</button>
+            </form>
+
+            <div class="price-display">
+                <h3>Estimated Price</h3>
+                <div class="price-amount" id="estimated-price">R0.00</div>
+                <p>Based on R8 per kilometer</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3>TruckHire JHB</h3>
+                    <p>Your reliable partner for truck and bakkie hire in Johannesburg. We provide efficient and affordable transportation solutions.</p>
+                </div>
+                <div class="footer-column">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#vehicles">Our Vehicles</a></li>
+                        <li><a href="#rubble">Rubble Removal</a></li>
+                        <li><a href="#booking">Book Now</a></li>
+                        <li><a href="#contact">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Contact Info</h3>
+                    <ul>
+                        <li><i class="fas fa-phone"></i> +27 67 759 8368 </li>
+                        <li><i class="fas fa-envelope"></i> Danielchiliza76@gmail.com</li>
+                        <li><i class="fas fa-map-marker-alt"></i> Johannesburg, South Africa</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2023 TruckHire Johannesburg. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+
+         // Price Calculator
+        document.addEventListener('DOMContentLoaded', function() {
+            const distanceInput = document.getElementById('distance');
+            const priceDisplay = document.getElementById('estimated-price');
+            const ratePerKm = 8; // R8 per km
+            
+            // Calculate price when distance changes
+            distanceInput.addEventListener('input', function() {
+                const distance = parseFloat(distanceInput.value) || 0;
+                const price = distance * ratePerKm;
+                priceDisplay.textContent = `R${price.toFixed(2)}`;
+            });
+            
+            // Vehicle selection buttons
+            const selectButtons = document.querySelectorAll('.select-button');
+            const vehicleSelect = document.getElementById('vehicle-type');
+            
+            selectButtons.forEach(button => {
+                button.addEventListener('click', function() {
+                    const vehicle = this.getAttribute('data-vehicle');
+                    // Find the corresponding option in the select
+                    for (let i = 0; i < vehicleSelect.options.length; i++) {
+                        if (vehicleSelect.options[i].value === vehicle) {
+                            vehicleSelect.selectedIndex = i;
+                            break;
+                        }
+                    }
+                    
+                    // Scroll to booking form
+                    document.getElementById('booking').scrollIntoView({ behavior: 'smooth' });
+                });
+            });
+            
+            // Form submission
+            const bookingForm = document.getElementById('booking-form');
+            bookingForm.addEventListener('submit', function(e) {
+                e.preventDefault();
+                
+                // Get form values
+                const vehicleType = document.getElementById('vehicle-type').value;
+                const pickup = document.getElementById('pickup-location').value;
+                const destination = document.getElementById('destination').value;
+                const date = document.getElementById('date').value;
+                const time = document.getElementById('time').value;
+                const distance = document.getElementById('distance').value;
+                const notes = document.getElementById('notes').value;
+                
+                // In a real app, you would send this data to a server
+                // For now, we'll just show an alert
+                alert(`Booking submitted!\n\nVehicle: ${vehicleType}\nFrom: ${pickup}\nTo: ${destination}\nDate: ${date} at ${time}\nDistance: ${distance}km\nNotes: ${notes || 'None'}`);
+                
+                // Reset form
+                bookingForm.reset();
+                priceDisplay.textContent = 'R0.00';
+            });
+            
+            // Set minimum date to today
+            const today = new Date().toISOString().split('T')[0];
+            document.getElementById('date').setAttribute('min', today);
+        });
+    </script>
+</body>
+</html>
